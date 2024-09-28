@@ -131,5 +131,23 @@ Below is a simplified flow diagram of the project:
                           |   Data Storage Unit  |
                           +----------------------+
 
+---
 
+## Running Your Tests
+
+1. Install Required Packages: Make sure you have any dependencies installed. You can run your tests with:
+   python -m unittest discover -s tests
+
+2. Structure of Your Project:
+   WebScrapingAutomation/
+   ├── login.py
+   ├── web_scrape.py
+   ├── requirements.txt
+   ├── tests/
+   │   ├── test_login.py
+   │   └── test_web_scrape.py
+
+Notes:
+   Make sure to replace the placeholder function names and expected values with those relevant to your actual implementation.
+   You may need to mock network calls for the scraping tests if you're testing with live data, to avoid rate limiting or changes in the webpage structure.
 
